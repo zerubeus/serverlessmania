@@ -33,6 +33,12 @@ class MyDocument extends Document {
             integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc"
             crossOrigin="anonymous"
           />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+          />
         </Head>
         <body className="antialiased text-black bg-white dark:bg-gray-900 dark:text-white">
           <Main />
