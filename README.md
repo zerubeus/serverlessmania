@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="media/serverlessmania.svg" alt="ServerlessMania Logo" width="400"/>
+</p>
+
 # ServerlessMania
 
 A powerful development agent designed to streamline the creation and deployment of native serverless applications on AWS.
