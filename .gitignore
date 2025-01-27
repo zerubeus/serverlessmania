@@ -76,6 +76,11 @@ docs/_build/
 .pybuilder/
 target/
 
+# Poetry
+poetry.lock
+.venv/
+dist/
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
@@ -163,4 +168,3 @@ cython_debug/
 .idea/
 .cursorignore
 .cursorrules
-

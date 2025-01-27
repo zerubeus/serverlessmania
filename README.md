@@ -23,7 +23,7 @@ ServerlessMania is your AI-powered companion for building and deploying serverle
 
 - AWS Account with appropriate IAM permissions
 - Python 3.8 or later
-- pip (Python package manager)
+- Poetry (Python dependency management tool)
 - AWS CLI configured locally
 - Basic understanding of serverless architecture
 
@@ -36,22 +36,25 @@ ServerlessMania is your AI-powered companion for building and deploying serverle
    cd serverlessmania
    ```
 
-2. Create and activate a virtual environment:
+2. Install Poetry (if not already installed):
 
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Unix/macOS
-   # or
-   .\venv\Scripts\activate  # On Windows
+   curl -sSL https://install.python-poetry.org | python3 -
    ```
 
 3. Install dependencies:
 
    ```bash
-   pip install -r requirements.txt
+   poetry install
    ```
 
-4. Configure your AWS credentials:
+4. Activate the poetry environment:
+
+   ```bash
+   poetry shell
+   ```
+
+5. Configure your AWS credentials:
    ```bash
    aws configure
    ```
